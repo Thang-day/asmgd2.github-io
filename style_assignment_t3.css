@@ -1,0 +1,50 @@
+body{
+    padding:0px;
+    margin:0px;
+}
+.container{
+    width: 980px;
+    margin:0 auto;
+}
+.container > header{
+    width: 1000px;
+    background-size: 100% 100%;
+    height: 0px;
+    padding-bottom: 25%;
+}
+
+.container > nav{
+    line-height: 40px;
+    background-color: red;
+    text-align: center;
+    font-variant: small-caps;
+    color: white;
+}
+.container > nav > a{
+    color:white;
+    text-decoration:none;
+    margin:0 10px;
+}
+.container > nav > a:hover{
+    color:yellow;
+    text-decoration:underline;
+} 
+
+.container > article{
+    line-height: 80px;
+    text-align: center;
+    float: left;
+    width: 25%;
+    font-size: 30px;
+    border: 2px solid black;
+}
+.container > article > #ten_mon{
+    color: red;
+}
+
+
+.container > aside{
+    word-spacing: 200px;
+    text-align: center;
+    padding: 10px;
+}
